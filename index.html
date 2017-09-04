@@ -15,11 +15,11 @@
       <span id="second"></span>
   </div>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
   <script src="dist/countdown.min.js"></script>
   <script>
-      var date = moment().add(1, 'M').toDate().getTime();
-      var countdown = new Countdown(date);
+      var date = new Date();
+      date.setMonth(date.getMonth() + 1);
+      var countdown = new Countdown(date.getTime());
       countdown.populate();
       countdown.time(console.log);
   </script>
