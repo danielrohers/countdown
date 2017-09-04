@@ -1,0 +1,20 @@
+{
+  "name": "countdown",
+  "version": "1.0.0",
+  "description": "Simple countdown",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielrohers/countdown.git"
+  },
+  "author": "Daniel Rohers Moura",
+  "bugs": {
+    "url": "https://github.com/danielrohers/countdown/issues"
+  },
+  "homepage": "https://github.com/danielrohers/countdown",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.0"
+  }
+}
